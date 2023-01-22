@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_f0MwAJTmEeq8rK2VVn7Y2A" internalVersion="7" tech="platform:/plugin/com.indy.environment/technology/map/map.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_hDDv0JTmEeq8rK2VVn7Y2A" alias="T_CUSTOMER" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_Gq8j8eYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_CUSTOMER?">
+    <field id="_hDMSsJTmEeq8rK2VVn7Y2A" name="CUS_COMPANY" ref="HSQL_Hotel.md#_GrIKIOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_COMPANY?"/>
+    <field id="_hDLroZTmEeq8rK2VVn7Y2A" name="CUS_FIRST_NAME" ref="HSQL_Hotel.md#_GrHjEOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_FIRST_NAME?"/>
+    <field id="_hDKdgJTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_GrFt4OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?" updateKey="true"/>
+    <field id="_hDLroJTmEeq8rK2VVn7Y2A" name="CUS_LAST_NAME" ref="HSQL_Hotel.md#_GrG8AeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_LAST_NAME?"/>
+    <field id="_hDMSsZTmEeq8rK2VVn7Y2A" name="CUS_BIRTH_DATE" ref="HSQL_Hotel.md#_GrIxMOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_BIRTH_DATE?"/>
+    <field id="_hDLEkJTmEeq8rK2VVn7Y2A" fullAlias="TIT_CODE" name="TIT_CODE" ref="HSQL_Hotel.md#_GrGU8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=TIT_CODE?"/>
+    <constraint id="_hDM5wJTmEeq8rK2VVn7Y2A" name="PK_T_CUSTOMER" ref="HSQL_Hotel.md#_GrKmYOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_CUSTOMER?" reject="true"/>
+    <constraint id="_hDM5wZTmEeq8rK2VVn7Y2A" name="FK_CUSTOMER_TITLE" ref="HSQL_Hotel.md#_GtsV8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_CUSTOMER_TITLE?" reject="true"/>
+  </datastore>
+  <datastore id="_humnMJTmEeq8rK2VVn7Y2A" alias="T_EMAIL" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_Gs32keYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_EMAIL?">
+    <field id="_hupDcZTmEeq8rK2VVn7Y2A" name="EML_TYPE" ref="HSQL_Hotel.md#_GtBAh-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=EML_TYPE?"/>
+    <field id="_hun1UJTmEeq8rK2VVn7Y2A" name="EML_ID" ref="HSQL_Hotel.md#_Gs_yYOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=EML_ID?" updateKey="true"/>
+    <field id="_hupqgJTmEeq8rK2VVn7Y2A" name="EML_MAILING_ALLOWED" ref="HSQL_Hotel.md#_GtBnkeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=EML_MAILING_ALLOWED?"/>
+    <field id="_huocYJTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_GtAZcOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?"/>
+    <field id="_hupDcJTmEeq8rK2VVn7Y2A" name="EML_ADDRESS" ref="HSQL_Hotel.md#_GtBAgOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=EML_ADDRESS?"/>
+    <constraint id="_hupqgZTmEeq8rK2VVn7Y2A" name="FK_EMAIL_CUSTOMER" ref="HSQL_Hotel.md#_Gt9bsOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_EMAIL_CUSTOMER?" reject="true"/>
+    <constraint id="_hupqgpTmEeq8rK2VVn7Y2A" name="PK_T_EMAIL" ref="HSQL_Hotel.md#_GtED0OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_EMAIL?" reject="true"/>
+  </datastore>
+  <datastore id="_jT04kJTmEeq8rK2VVn7Y2A" alias="T_ADDRESS" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GrZ28eYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_ADDRESS?">
+    <field id="_jT2twJTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_GrjA4OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?"/>
+    <field id="_jT4i8ZTmEeq8rK2VVn7Y2A" name="ADR_STATE_CODE" ref="HSQL_Hotel.md#_GrldJ-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_STATE_CODE?"/>
+    <field id="_jT2GsJTmEeq8rK2VVn7Y2A" name="ADR_ID" ref="HSQL_Hotel.md#_GriZ0OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_ID?" updateKey="true"/>
+    <field id="_jT2twZTmEeq8rK2VVn7Y2A" name="ADR_LINE1" ref="HSQL_Hotel.md#_Grjn8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LINE1?"/>
+    <field id="_jT374ZTmEeq8rK2VVn7Y2A" name="ADR_ZIP_CODE" ref="HSQL_Hotel.md#_Grk2FuYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_ZIP_CODE?"/>
+    <field id="_jT5KAJTmEeq8rK2VVn7Y2A" name="ADR_LAT" ref="HSQL_Hotel.md#_GrmEMeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LAT?"/>
+    <field id="_jT374JTmEeq8rK2VVn7Y2A" name="ADR_LINE4" ref="HSQL_Hotel.md#_GrkPB-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LINE4?"/>
+    <field id="_jT3U0JTmEeq8rK2VVn7Y2A" name="ADR_LINE2" ref="HSQL_Hotel.md#_Grjn9-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LINE2?"/>
+    <field id="_jT3U0ZTmEeq8rK2VVn7Y2A" name="ADR_LINE3" ref="HSQL_Hotel.md#_GrkPAOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LINE3?"/>
+    <field id="_jT4i8JTmEeq8rK2VVn7Y2A" name="ADR_CITY" ref="HSQL_Hotel.md#_GrldIOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_CITY?"/>
+    <field id="_jT5KAZTmEeq8rK2VVn7Y2A" name="ADR_LON" ref="HSQL_Hotel.md#_GrmrQOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=ADR_LON?"/>
+    <constraint id="_jT5xEJTmEeq8rK2VVn7Y2A" name="PK_T_ADDRESS" ref="HSQL_Hotel.md#_GrogcOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_ADDRESS?" reject="true"/>
+    <constraint id="_jT5xEZTmEeq8rK2VVn7Y2A" name="FK_ADDRESS_CUSTOMER" ref="HSQL_Hotel.md#_GtxOcOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_ADDRESS_CUSTOMER?" reject="true"/>
+  </datastore>
+  <datastore id="_loZjQJTmEeq8rK2VVn7Y2A" alias="T_BDR_PLN_CUS" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GsrCQeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_BDR_PLN_CUS?">
+    <field id="_lobYcJTmEeq8rK2VVn7Y2A" name="PLN_DAY" ref="HSQL_Hotel.md#_Gsy-GOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PLN_DAY?" updateKey="true"/>
+    <field id="_loaxYJTmEeq8rK2VVn7Y2A" fullAlias="BDR_ID" name="BDR_ID" ref="HSQL_Hotel.md#_Gsy-EOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_ID?" updateKey="true"/>
+    <field id="_lobYcZTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_GszlJeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?"/>
+    <field id="_lob_gJTmEeq8rK2VVn7Y2A" name="PLN_CUS_PERS_COUNT" ref="HSQL_Hotel.md#_Gs0MMOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PLN_CUS_PERS_COUNT?"/>
+    <field id="_locmkJTmEeq8rK2VVn7Y2A" name="PLN_CUS_BOOKED" ref="HSQL_Hotel.md#_Gs0MOOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PLN_CUS_BOOKED?"/>
+    <constraint id="_locmkZTmEeq8rK2VVn7Y2A" name="FK_BDR_PLN_CUSTOMER" ref="HSQL_Hotel.md#_Gt7mhOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BDR_PLN_CUSTOMER?" reject="true"/>
+    <constraint id="_locmkpTmEeq8rK2VVn7Y2A" name="PK_T_BDR_PLN_CUS" ref="HSQL_Hotel.md#_Gs2BYOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_BDR_PLN_CUS?" reject="true"/>
+    <constraint id="_lodNoJTmEeq8rK2VVn7Y2A" name="FK_BDR_PLN_BEDROOM" ref="HSQL_Hotel.md#_Gt7mgOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BDR_PLN_BEDROOM?" reject="true"/>
+    <constraint id="_lodNoZTmEeq8rK2VVn7Y2A" name="FK_BDR_PLN_PLANNING" ref="HSQL_Hotel.md#_Gt7miOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BDR_PLN_PLANNING?" reject="true"/>
+  </datastore>
+  <datastore id="_or8z0JTmEeq8rK2VVn7Y2A" alias="T_BEDROOM" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GtGgEeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_BEDROOM?">
+    <field id="_or_QEJTmEeq8rK2VVn7Y2A" name="BDR_BAR" ref="HSQL_Hotel.md#_GtSGR-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_BAR?"/>
+    <field id="_or_QEZTmEeq8rK2VVn7Y2A" name="BDR_BED_COUNT" ref="HSQL_Hotel.md#_GtStUeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_BED_COUNT?"/>
+    <field id="_or-pAJTmEeq8rK2VVn7Y2A" name="BDR_FLOOR" ref="HSQL_Hotel.md#_GtQ4IOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_FLOOR?"/>
+    <field id="_or-B8JTmEeq8rK2VVn7Y2A" name="BDR_NUMBER" ref="HSQL_Hotel.md#_GtQREuYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_NUMBER?"/>
+    <field id="_or_3IJTmEeq8rK2VVn7Y2A" name="BDR_PHONE_NUMBER" ref="HSQL_Hotel.md#_GtTUYOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_PHONE_NUMBER?"/>
+    <field id="_or_3IZTmEeq8rK2VVn7Y2A" name="BDR_TYPE" ref="HSQL_Hotel.md#_GtT7cOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_TYPE?"/>
+    <field id="_or9a4ZTmEeq8rK2VVn7Y2A" fullAlias="BDR_ID" name="BDR_ID" ref="HSQL_Hotel.md#_GtPqAOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_ID?" updateKey="true"/>
+    <field id="_or-pAZTmEeq8rK2VVn7Y2A" name="BDR_BATH" ref="HSQL_Hotel.md#_GtRfMOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_BATH?"/>
+    <field id="_or-pApTmEeq8rK2VVn7Y2A" name="BDR_SHOWER" ref="HSQL_Hotel.md#_GtSGQOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_SHOWER?"/>
+    <constraint id="_or_3IpTmEeq8rK2VVn7Y2A" name="PK_T_BEDROOM" ref="HSQL_Hotel.md#_GtVwoOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_BEDROOM?" reject="true"/>
+  </datastore>
+  <datastore id="_rJbi4JTmEeq8rK2VVn7Y2A" alias="T_BDR_PRICE" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GrNCoOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_BDR_PRICE?">
+    <field id="_rJcxAJTmEeq8rK2VVn7Y2A" fullAlias="BDR_ID" name="BDR_ID" ref="HSQL_Hotel.md#_GrU-cOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_ID?" updateKey="true"/>
+    <field id="_rJemMZTmEeq8rK2VVn7Y2A" name="PRC_ROOM_PRICE" ref="HSQL_Hotel.md#_GrWMkOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PRC_ROOM_PRICE?"/>
+    <field id="_rJd_IJTmEeq8rK2VVn7Y2A" name="PRC_START_DATE" ref="HSQL_Hotel.md#_GrU-eOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PRC_START_DATE?" updateKey="true"/>
+    <field id="_rJemMJTmEeq8rK2VVn7Y2A" name="PRC_END_DATE" ref="HSQL_Hotel.md#_GrVlgOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PRC_END_DATE?"/>
+    <constraint id="_rJfNQJTmEeq8rK2VVn7Y2A" name="PK_T_BDR_PRICE" ref="HSQL_Hotel.md#_GrYBwOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_BDR_PRICE?" reject="true"/>
+    <constraint id="_rJfNQZTmEeq8rK2VVn7Y2A" name="FK_BDR_PRICE_BEDROOM" ref="HSQL_Hotel.md#_GtuyMOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BDR_PRICE_BEDROOM?" reject="true"/>
+  </datastore>
+  <datastore id="_tKfbsJTmEeq8rK2VVn7Y2A" alias="T_BILLING" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GtYz8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_BILLING?">
+    <field id="_tKgp0JTmEeq8rK2VVn7Y2A" fullAlias="BIL_ID" name="BIL_ID" ref="HSQL_Hotel.md#_Gtik8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BIL_ID?" updateKey="true"/>
+    <field id="_tKh38JTmEeq8rK2VVn7Y2A" name="BIL_DATE" ref="HSQL_Hotel.md#_GtjzEOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BIL_DATE?"/>
+    <field id="_tKhQ4JTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_Gtik-OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?"/>
+    <field id="_tKhQ4ZTmEeq8rK2VVn7Y2A" fullAlias="PMT_CODE" name="PMT_CODE" ref="HSQL_Hotel.md#_GtjMAOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PMT_CODE?"/>
+    <field id="_tKh38ZTmEeq8rK2VVn7Y2A" name="BIL_PMT_DATE" ref="HSQL_Hotel.md#_GtjzF-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BIL_PMT_DATE?"/>
+    <constraint id="_tKh38pTmEeq8rK2VVn7Y2A" name="PK_T_BILLING" ref="HSQL_Hotel.md#_GtmPUOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_BILLING?" reject="true"/>
+    <constraint id="_tKifAJTmEeq8rK2VVn7Y2A" name="FK_BILLING_PAYMENT" ref="HSQL_Hotel.md#_GuBGFOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BILLING_PAYMENT?" reject="true"/>
+    <constraint id="_tKifAZTmEeq8rK2VVn7Y2A" name="FK_BILLING_CUSTOMER" ref="HSQL_Hotel.md#_GuBGEOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BILLING_CUSTOMER?" reject="true"/>
+  </datastore>
+  <datastore id="_tiCZAJTmEeq8rK2VVn7Y2A" alias="T_BILLING_LINES" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GsCJEOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_BILLING_LINES?">
+    <field id="_tiFcUJTmEeq8rK2VVn7Y2A" name="BLL_DISCOUNT_AMOUNT" ref="HSQL_Hotel.md#_GsLTB-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_DISCOUNT_AMOUNT?"/>
+    <field id="_tiGDYJTmEeq8rK2VVn7Y2A" name="BLL_TYPE" ref="HSQL_Hotel.md#_GsMhIOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_TYPE?"/>
+    <field id="_tiFcUZTmEeq8rK2VVn7Y2A" name="BLL_AMOUNT" ref="HSQL_Hotel.md#_GsL6EOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_AMOUNT?"/>
+    <field id="_tiGDYZTmEeq8rK2VVn7Y2A" name="BDR_ID" ref="HSQL_Hotel.md#_GsMhJ-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BDR_ID?"/>
+    <field id="_tiE1QZTmEeq8rK2VVn7Y2A" name="BLL_DISCOUNT_RATE" ref="HSQL_Hotel.md#_GsLTAOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_DISCOUNT_RATE?"/>
+    <field id="_tiE1QJTmEeq8rK2VVn7Y2A" name="BLL_QTY" ref="HSQL_Hotel.md#_GsKr8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_QTY?"/>
+    <field id="_tiDnIJTmEeq8rK2VVn7Y2A" name="BLL_ID" ref="HSQL_Hotel.md#_GsKE4OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BLL_ID?" updateKey="true"/>
+    <field id="_tiEOMJTmEeq8rK2VVn7Y2A" fullAlias="BIL_ID" name="BIL_ID" ref="HSQL_Hotel.md#_GsKE6OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=BIL_ID?"/>
+    <constraint id="_tiGqcJTmEeq8rK2VVn7Y2A" name="FK_BILLING_LINES_BILLING" ref="HSQL_Hotel.md#_Gt2uBOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BILLING_LINES_BILLING?" reject="true"/>
+    <constraint id="_tiGqcZTmEeq8rK2VVn7Y2A" name="PK_T_BILLING_LINES" ref="HSQL_Hotel.md#_GsO9YOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_BILLING_LINES?" reject="true"/>
+    <constraint id="_tiGqcpTmEeq8rK2VVn7Y2A" name="FK_BILLING_LINES_BEDROOM" ref="HSQL_Hotel.md#_Gt2uAOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_BILLING_LINES_BEDROOM?" reject="true"/>
+  </datastore>
+  <datastore id="_yX9mIJTmEeq8rK2VVn7Y2A" alias="T_PAYMENT_TYPE" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GqB98OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_PAYMENT_TYPE?">
+    <field id="_yYACYZTmEeq8rK2VVn7Y2A" name="PMT_DESCRIPTION" ref="HSQL_Hotel.md#_GqlXkOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PMT_DESCRIPTION?"/>
+    <field id="_yX_bUJTmEeq8rK2VVn7Y2A" fullAlias="PMT_CODE" name="PMT_CODE" ref="HSQL_Hotel.md#_GqjiYOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PMT_CODE?" updateKey="true"/>
+    <field id="_yYACYJTmEeq8rK2VVn7Y2A" name="PMT_NAME" ref="HSQL_Hotel.md#_GqkwgOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PMT_NAME?"/>
+    <field id="_yYApcJTmEeq8rK2VVn7Y2A" name="PMT_ACTIVE" ref="HSQL_Hotel.md#_Gql-oOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PMT_ACTIVE?"/>
+    <constraint id="_yYApcZTmEeq8rK2VVn7Y2A" name="PK_T_PAYMENT_TYPE" ref="HSQL_Hotel.md#_GqpB8OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_PAYMENT_TYPE?" reject="true"/>
+  </datastore>
+  <datastore id="_0PnEQJTmEeq8rK2VVn7Y2A" alias="T_PHONE" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_Gsdm4eYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_PHONE?">
+    <field id="_0PpggJTmEeq8rK2VVn7Y2A" fullAlias="PHT_CODE" name="PHT_CODE" ref="HSQL_Hotel.md#_Gsmw0OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHT_CODE?"/>
+    <field id="_0PoSYJTmEeq8rK2VVn7Y2A" name="PHO_ID" ref="HSQL_Hotel.md#_GslisOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHO_ID?" updateKey="true"/>
+    <field id="_0Po5cJTmEeq8rK2VVn7Y2A" fullAlias="CUS_ID" name="CUS_ID" ref="HSQL_Hotel.md#_GsmJwOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=CUS_ID?"/>
+    <field id="_0PqHkJTmEeq8rK2VVn7Y2A" name="PHO_PHONING_ALLOWED" ref="HSQL_Hotel.md#_GsnX4OYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHO_PHONING_ALLOWED?"/>
+    <field id="_0PpggZTmEeq8rK2VVn7Y2A" name="PHO_NUMBER" ref="HSQL_Hotel.md#_Gsmw1-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHO_NUMBER?"/>
+    <constraint id="_0PquoJTmEeq8rK2VVn7Y2A" name="PK_T_PHONE" ref="HSQL_Hotel.md#_GspNEOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_PHONE?" reject="true"/>
+    <constraint id="_0PquoZTmEeq8rK2VVn7Y2A" name="FK_PHONE_CUSTOMER" ref="HSQL_Hotel.md#_Gt5xUOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_PHONE_CUSTOMER?" reject="true"/>
+    <constraint id="_0PquopTmEeq8rK2VVn7Y2A" name="FK_PHONE_PHONE_TYPE" ref="HSQL_Hotel.md#_Gt5xVOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=FK_PHONE_PHONE_TYPE?" reject="true"/>
+  </datastore>
+  <datastore id="_0-FT0JTmEeq8rK2VVn7Y2A" alias="T_PHONE_TYPE" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GsQykOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_PHONE_TYPE?">
+    <field id="_0-Gh8JTmEeq8rK2VVn7Y2A" fullAlias="PHT_CODE" name="PHT_CODE" ref="HSQL_Hotel.md#_GsZVcOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHT_CODE?" updateKey="true"/>
+    <field id="_0-HJAJTmEeq8rK2VVn7Y2A" name="PHT_NAME" ref="HSQL_Hotel.md#_GsZ8guYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PHT_NAME?"/>
+    <constraint id="_0-HJAZTmEeq8rK2VVn7Y2A" name="PK_T_PHONE_TYPE" ref="HSQL_Hotel.md#_GsbxsOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_PHONE_TYPE?" reject="true"/>
+  </datastore>
+  <datastore id="_1rl6EJTmEeq8rK2VVn7Y2A" alias="T_TITLE" dataset="_husGwJTmEeq8rK2VVn7Y2A" ref="HSQL_Hotel.md#_GrqVoeYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=T_TITLE?">
+    <field id="_1rnvQJTmEeq8rK2VVn7Y2A" name="TIT_NAME" ref="HSQL_Hotel.md#_GryRd-YqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=TIT_NAME?"/>
+    <field id="_1rnIMJTmEeq8rK2VVn7Y2A" fullAlias="TIT_CODE" name="TIT_CODE" ref="HSQL_Hotel.md#_GryRcOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=TIT_CODE?" updateKey="true"/>
+    <constraint id="_1rnvQZTmEeq8rK2VVn7Y2A" name="PK_T_TITLE" ref="HSQL_Hotel.md#_Gr0GoOYqEeeg4IHoU6igbw?fileId=_BfcIYOYqEeeg4IHoU6igbw$type=md$name=PK_T_TITLE?" reject="true"/>
+  </datastore>
+  <datastore id="_crowsJTzEeq8rK2VVn7Y2A" alias="Time" dataset="_crxTkJTzEeq8rK2VVn7Y2A" ref="FILE_Server.md#_sLtFgYq4Eeq3wNFdv4f2nQ?fileId=_sLqpIIq4Eeq3wNFdv4f2nQ$type=md$name=Time?" subExpression="[A]">
+    <field id="_cru3UJTzEeq8rK2VVn7Y2A" expand="true" name="Time" ref="FILE_Server.md#_sLtFgYq4Eeq3wNFdv4f2nQ?fileId=_sLqpIIq4Eeq3wNFdv4f2nQ$type=md$name=Time?" updateKey="true">
+      <expression id="_ebJmgJTzEeq8rK2VVn7Y2A" setDescriptorRef="_ebI_cJTzEeq8rK2VVn7Y2A">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_cru3UZTzEeq8rK2VVn7Y2A" enable="true" insert="true" name="DAY_DATE" parent="_cru3UJTzEeq8rK2VVn7Y2A" ref="FILE_Server.md#_sLtFjIq4Eeq3wNFdv4f2nQ?fileId=_sLqpIIq4Eeq3wNFdv4f2nQ$type=md$name=DAY_DATE?" update="true">
+      <expression id="_ebKNkJTzEeq8rK2VVn7Y2A" setDescriptorRef="_ebI_cJTzEeq8rK2VVn7Y2A">
+        <expression>T_CUSTOMER.CUS_ID</expression>
+      </expression>
+    </field>
+    <setDescriptor id="_ebI_cJTzEeq8rK2VVn7Y2A" label="A"/>
+  </datastore>
+  <join id="_idUHUJTmEeq8rK2VVn7Y2A" location="SRC" left="_hDDv0JTmEeq8rK2VVn7Y2A" order="10" right="_humnMJTmEeq8rK2VVn7Y2A">
+    <expression>T_CUSTOMER.CUS_ID = T_EMAIL.CUS_ID</expression>
+  </join>
+  <join id="_kKI1gJTmEeq8rK2VVn7Y2A" location="SRC" left="_jT04kJTmEeq8rK2VVn7Y2A" order="30" right="_hDDv0JTmEeq8rK2VVn7Y2A">
+    <expression>T_ADDRESS.CUS_ID = T_CUSTOMER.CUS_ID</expression>
+  </join>
+  <join id="_nbB-gJTmEeq8rK2VVn7Y2A" location="SRC" left="_loZjQJTmEeq8rK2VVn7Y2A" order="50" right="_hDDv0JTmEeq8rK2VVn7Y2A">
+    <expression>T_BDR_PLN_CUS.CUS_ID = T_CUSTOMER.CUS_ID</expression>
+  </join>
+  <join id="_pslxcJTmEeq8rK2VVn7Y2A" location="SRC" left="_or8z0JTmEeq8rK2VVn7Y2A" order="70" right="_loZjQJTmEeq8rK2VVn7Y2A">
+    <expression>T_BEDROOM.BDR_ID = T_BDR_PLN_CUS.BDR_ID</expression>
+  </join>
+  <join id="_sZuGEJTmEeq8rK2VVn7Y2A" location="SRC" left="_rJbi4JTmEeq8rK2VVn7Y2A" order="90" right="_or8z0JTmEeq8rK2VVn7Y2A">
+    <expression>T_BDR_PRICE.BDR_ID = T_BEDROOM.BDR_ID</expression>
+  </join>
+  <join id="_uiB2YJTmEeq8rK2VVn7Y2A" location="SRC" left="_tKfbsJTmEeq8rK2VVn7Y2A" order="110" right="_hDDv0JTmEeq8rK2VVn7Y2A">
+    <expression>T_BILLING.CUS_ID = T_CUSTOMER.CUS_ID</expression>
+  </join>
+  <join id="_vTiL0JTmEeq8rK2VVn7Y2A" location="SRC" left="_tKfbsJTmEeq8rK2VVn7Y2A" order="130" right="_tiCZAJTmEeq8rK2VVn7Y2A">
+    <expression>T_BILLING.BIL_ID = T_BILLING_LINES.BIL_ID</expression>
+  </join>
+  <join id="_zRq1UJTmEeq8rK2VVn7Y2A" location="SRC" left="_yX9mIJTmEeq8rK2VVn7Y2A" order="150" right="_tKfbsJTmEeq8rK2VVn7Y2A">
+    <expression>T_PAYMENT_TYPE.PMT_CODE = T_BILLING.PMT_CODE</expression>
+  </join>
+  <join id="_2tVq8JTmEeq8rK2VVn7Y2A" location="SRC" left="_hDDv0JTmEeq8rK2VVn7Y2A" order="170" right="_1rl6EJTmEeq8rK2VVn7Y2A">
+    <expression>T_CUSTOMER.TIT_CODE = T_TITLE.TIT_CODE</expression>
+  </join>
+  <join id="_4HFFEJTmEeq8rK2VVn7Y2A" location="SRC" left="_hDDv0JTmEeq8rK2VVn7Y2A" order="190" right="_0PnEQJTmEeq8rK2VVn7Y2A">
+    <expression>T_CUSTOMER.CUS_ID = T_PHONE.CUS_ID</expression>
+  </join>
+  <join id="_46zoEJTmEeq8rK2VVn7Y2A" location="SRC" left="_0PnEQJTmEeq8rK2VVn7Y2A" order="210" right="_0-FT0JTmEeq8rK2VVn7Y2A">
+    <expression>T_PHONE.PHT_CODE = T_PHONE_TYPE.PHT_CODE</expression>
+  </join>
+  <template id="_ebOfAJTzEeq8rK2VVn7Y2A" name="I_Time" process="platform:/plugin/com.indy.environment/templates/templates.generic/File/INTEGRATION%20File.tp.proc#_4WVbt4c7Ed6NdYXLsd44UQ?fileId=_4WVbt4c7Ed6NdYXLsd44UQ$type=proc$name=INTEGRATION%20File?" targetId="_crowsJTzEeq8rK2VVn7Y2A"/>
+  <dataSet id="_husGwJTmEeq8rK2VVn7Y2A">
+    <container>_humnMJTmEeq8rK2VVn7Y2A</container>
+    <container>_hDDv0JTmEeq8rK2VVn7Y2A</container>
+    <container>_jT04kJTmEeq8rK2VVn7Y2A</container>
+    <container>_loZjQJTmEeq8rK2VVn7Y2A</container>
+    <container>_or8z0JTmEeq8rK2VVn7Y2A</container>
+    <container>_rJbi4JTmEeq8rK2VVn7Y2A</container>
+    <container>_tKfbsJTmEeq8rK2VVn7Y2A</container>
+    <container>_tiCZAJTmEeq8rK2VVn7Y2A</container>
+    <container>_yX9mIJTmEeq8rK2VVn7Y2A</container>
+    <container>_1rl6EJTmEeq8rK2VVn7Y2A</container>
+    <container>_0PnEQJTmEeq8rK2VVn7Y2A</container>
+    <container>_0-FT0JTmEeq8rK2VVn7Y2A</container>
+  </dataSet>
+  <dataSet id="_crxTkJTzEeq8rK2VVn7Y2A">
+    <container>_crowsJTzEeq8rK2VVn7Y2A</container>
+  </dataSet>
+  <hint>
+    <usedField>#_hDKdgJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_hDLEkJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_huocYJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_jT2twJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_loaxYJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_lobYcZTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_or9a4ZTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_rJcxAJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_tKgp0JTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_tKhQ4JTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_tKhQ4ZTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_tiEOMJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_yX_bUJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_0PpggJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_0Po5cJTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_0-Gh8JTmEeq8rK2VVn7Y2A</usedField>
+    <usedField>#_1rnIMJTmEeq8rK2VVn7Y2A</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_f4rnYJTmEeq8rK2VVn7Y2A" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_hDVcoJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="8905185">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDWDsJTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDWDsZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDWDspTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hDWDs5TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hDWDtJTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hDWDtZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDWDtpTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_hDWDt5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hDWqwJTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hDWqwZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hDWqwpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hDWqw5TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_hDDv0JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hDVcoZTmEeq8rK2VVn7Y2A" x="487" y="112"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_osZfwJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="8905185">
+    <children xmi:type="notation:DecorationNode" xmi:id="_osaG0JTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_osaG0ZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_osaG0pTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_osaG05TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_osaG1JTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_osaG1ZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_osaG1pTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_osaG15TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_osaG2JTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_osaG2ZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_osaG2pTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_osaG25TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_or8z0JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_osZfwZTmEeq8rK2VVn7Y2A" x="139" y="459"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_idsh0JTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_idsh0ZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_idsh0pTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_idsh05TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_idUHUJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_idsh1JTmEeq8rK2VVn7Y2A" x="718" y="135"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_huvxIJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_huvxIpTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_huvxI5TmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_huvxJJTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_huwYMJTmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_huwYMZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_huwYMpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_huwYM5TmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_huwYNJTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_huwYNZTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_huwYNpTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_huwYN5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_huwYOJTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_humnMJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_huvxIZTmEeq8rK2VVn7Y2A" x="804" y="113"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tLAZEJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="8905185">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tLAZEpTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tLAZE5TmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tLAZFJTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tLAZFZTmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tLAZFpTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tLAZF5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tLBAIJTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tLBAIZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tLBAIpTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tLBAI5TmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tLBAJJTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tLBAJZTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_tKfbsJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tLAZEZTmEeq8rK2VVn7Y2A" x="696" y="295"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_vUZugJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_vUZugZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vUZugpTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_vUZug5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_vTiL0JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUZuhJTmEeq8rK2VVn7Y2A" x="922" y="312"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tixY0JTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tix_4JTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tix_4ZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tix_4pTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tix_45TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tix_5JTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tix_5ZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tiym8JTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tiym8ZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tiym8pTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tiym85TmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tiym9JTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tiym9ZTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_tiCZAJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tixY0ZTmEeq8rK2VVn7Y2A" x="1038" y="295"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yYt0EJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYubIJTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYubIZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYubIpTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yYubI5TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yYubJJTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yYubJZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYubJpTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_yYubJ5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYubKJTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yYubKZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yYubKpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yYubK5TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_yX9mIJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yYt0EZTmEeq8rK2VVn7Y2A" x="882" y="433"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_nbrewJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_nbrewZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nbrewpTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_nbrew5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_nbB-gJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nbrexJTmEeq8rK2VVn7Y2A" x="549" y="254"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sab3wJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_sab3wZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sab3wpTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_sab3w5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_sZuGEJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sab3xJTmEeq8rK2VVn7Y2A" x="188" y="394"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rJ6EAJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rJ6EApTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rJ6EA5TmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rJ6EBJTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rJ6EBZTmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rJ6EBpTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rJ6EB5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rJ6rEJTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_rJ6rEZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rJ6rEpTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rJ6rE5TmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rJ6rFJTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rJ6rFZTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_rJbi4JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rJ6EAZTmEeq8rK2VVn7Y2A" x="140" y="273"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ui3j4JTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ui3j4ZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ui3j4pTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_ui3j45TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_uiB2YJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ui3j5JTmEeq8rK2VVn7Y2A" x="743" y="194"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zS0r4JTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zS0r4ZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zS0r4pTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_zS0r45TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_zRq1UJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zS0r5JTmEeq8rK2VVn7Y2A" x="751" y="457"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0Qd_4JTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Qd_4pTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Qem8JTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Qem8ZTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0Qem8pTmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0Qem85TmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0Qem9JTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Qem9ZTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0Qem9pTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Qem95TmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0Qem-JTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0Qem-ZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0QfOAJTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_0PnEQJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Qd_4ZTmEeq8rK2VVn7Y2A" x="665" y="34"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_4IRX4JTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_4IRX4ZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4IRX4pTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_4IRX45TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_4HFFEJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4IRX5JTmEeq8rK2VVn7Y2A" x="545" y="52"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_48HPoJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_48HPoZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_48HPopTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_48HPo5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_46zoEJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_48HPpJTmEeq8rK2VVn7Y2A" x="846" y="54"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0-yecJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0-zFgZTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0-zFgpTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0-zFg5TmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0-zFhJTmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0-zFhZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0-zFhpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0-zFh5TmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0-zFiJTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0-zFiZTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0-zFipTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0-zFi5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0-zskJTmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_0-FT0JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-zFgJTmEeq8rK2VVn7Y2A" x="955" y="32"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lotsUJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="8047085">
+    <children xmi:type="notation:DecorationNode" xmi:id="_louTYJTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_louTYZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_louTYpTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_louTY5TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_louTZJTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_louTZZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_louTZpTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_louTZ5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lou6cJTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lou6cZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lou6cpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lou6c5TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_loZjQJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lotsUZTmEeq8rK2VVn7Y2A" x="486" y="454"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ptV_YJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ptV_YZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ptV_YpTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_ptV_Y5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_pslxcJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ptV_ZJTmEeq8rK2VVn7Y2A" x="361" y="467"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_kKokwJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_kKokwZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kKokwpTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_kKokw5TmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_kKI1gJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kKokxJTmEeq8rK2VVn7Y2A" x="389" y="72"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_2urHsJTmEeq8rK2VVn7Y2A" type="2005">
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_2urHsZTmEeq8rK2VVn7Y2A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2urHspTmEeq8rK2VVn7Y2A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_2uruwJTmEeq8rK2VVn7Y2A"/>
+    <element xmi:type="map:Join" href="../../MPD_Hotel.map#_2tVq8JTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2uruwZTmEeq8rK2VVn7Y2A" x="391" y="186"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1sX9MJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1sYkQJTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1sYkQZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1sYkQpTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1sYkQ5TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1sYkRJTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1sYkRZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1sYkRpTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1sYkR5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1sYkSJTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1sYkSZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1sYkSpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1sYkS5TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_1rl6EJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1sX9MZTmEeq8rK2VVn7Y2A" x="169" y="165"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jUF-UJTmEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI" fillColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUGlYJTmEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUGlYZTmEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUGlYpTmEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jUGlY5TmEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jUGlZJTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jUGlZZTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUGlZpTmEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_jUGlZ5TmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUHMcJTmEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jUHMcZTmEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jUHMcpTmEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jUHMc5TmEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_jT04kJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jUF-UZTmEeq8rK2VVn7Y2A" x="155" y="51"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_csrSgJTzEeq8rK2VVn7Y2A" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_csr5kJTzEeq8rK2VVn7Y2A" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_csr5kZTzEeq8rK2VVn7Y2A" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_csr5kpTzEeq8rK2VVn7Y2A" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_csr5k5TzEeq8rK2VVn7Y2A" visible="false" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_csr5lJTzEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_csr5lZTzEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_csr5lpTzEeq8rK2VVn7Y2A" visible="false" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_csr5l5TzEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_csr5mJTzEeq8rK2VVn7Y2A" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_csr5mZTzEeq8rK2VVn7Y2A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_csr5mpTzEeq8rK2VVn7Y2A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_csr5m5TzEeq8rK2VVn7Y2A" visible="false" type="7007"/>
+    <element xmi:type="map:Datastore" href="../../MPD_Hotel.map#_crowsJTzEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_csrSgZTzEeq8rK2VVn7Y2A" x="1257" y="232"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_f4rnYZTmEeq8rK2VVn7Y2A"/>
+  <element xmi:type="map:Map" href="../../MPD_Hotel.map#_f0MwAJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map$name=MPD_Hotel?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_idvlIJTmEeq8rK2VVn7Y2A" type="joinLink" source="_idsh0JTmEeq8rK2VVn7Y2A" target="_huvxIJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_idvlIZTmEeq8rK2VVn7Y2A" points="[-1, -1, -942, -196]$[814, 169, -127, -26]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_idwzQJTmEeq8rK2VVn7Y2A" type="joinLink" source="_idsh0JTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_idwzQZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_kKsPIJTmEeq8rK2VVn7Y2A" type="joinLink" source="_kKokwJTmEeq8rK2VVn7Y2A" target="_jUF-UJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kKsPIZTmEeq8rK2VVn7Y2A" points="[-1, -1, -261, -258]$[155, 153, -105, -104]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_kKs2MJTmEeq8rK2VVn7Y2A" type="joinLink" source="_kKokwJTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kKs2MZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_nbuiEJTmEeq8rK2VVn7Y2A" type="joinLink" source="_nbrewJTmEeq8rK2VVn7Y2A" target="_lotsUJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nbuiEZTmEeq8rK2VVn7Y2A" points="[-1, -1, -609, -513]$[523, 441, -85, -71]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_nbvwMJTmEeq8rK2VVn7Y2A" type="joinLink" source="_nbrewJTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nbvwMZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ptaQ0JTmEeq8rK2VVn7Y2A" type="joinLink" source="_ptV_YJTmEeq8rK2VVn7Y2A" target="_osZfwJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ptaQ0ZTmEeq8rK2VVn7Y2A" points="[-1, -1, -287, -550]$[228, 438, -58, -111]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_pta34JTmEeq8rK2VVn7Y2A" type="joinLink" source="_ptV_YJTmEeq8rK2VVn7Y2A" target="_lotsUJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pta34ZTmEeq8rK2VVn7Y2A" points="[-1, -1, -609, -513]$[523, 441, -85, -71]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sagJMJTmEeq8rK2VVn7Y2A" type="joinLink" source="_sab3wJTmEeq8rK2VVn7Y2A" target="_rJ6EAJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sagJMZTmEeq8rK2VVn7Y2A" points="[-1, -1, -113, -383]$[94, 321, -18, -61]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sagwQJTmEeq8rK2VVn7Y2A" type="joinLink" source="_sab3wJTmEeq8rK2VVn7Y2A" target="_osZfwJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sagwQZTmEeq8rK2VVn7Y2A" points="[-1, -1, -287, -550]$[228, 438, -58, -111]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ui71UJTmEeq8rK2VVn7Y2A" type="joinLink" source="_ui3j4JTmEeq8rK2VVn7Y2A" target="_tLAZEJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ui71UZTmEeq8rK2VVn7Y2A" points="[-1, -1, -958, -435]$[864, 392, -93, -42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ui8cYJTmEeq8rK2VVn7Y2A" type="joinLink" source="_ui3j4JTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ui8cYZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_vUd_8JTmEeq8rK2VVn7Y2A" type="joinLink" source="_vUZugJTmEeq8rK2VVn7Y2A" target="_tixY0JTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vUd_8ZTmEeq8rK2VVn7Y2A" points="[-1, -1, -1355, -473]$[1225, 427, -129, -45]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_vUfOEJTmEeq8rK2VVn7Y2A" type="joinLink" source="_vUZugJTmEeq8rK2VVn7Y2A" target="_tLAZEJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vUfOEZTmEeq8rK2VVn7Y2A" points="[-1, -1, -958, -435]$[864, 392, -93, -42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zS49UJTmEeq8rK2VVn7Y2A" type="joinLink" source="_zS0r4JTmEeq8rK2VVn7Y2A" target="_yYt0EJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zS49UZTmEeq8rK2VVn7Y2A" points="[-1, -1, -1020, -619]$[917, 557, -102, -61]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zS6LcJTmEeq8rK2VVn7Y2A" type="joinLink" source="_zS0r4JTmEeq8rK2VVn7Y2A" target="_tLAZEJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zS6LcZTmEeq8rK2VVn7Y2A" points="[-1, -1, -958, -435]$[864, 392, -93, -42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_2uvZIJTmEeq8rK2VVn7Y2A" type="joinLink" source="_2urHsJTmEeq8rK2VVn7Y2A" target="_1sX9MJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2uvZIZTmEeq8rK2VVn7Y2A" points="[-1, -1, -449, -361]$[396, 319, -52, -41]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_2uwAMJTmEeq8rK2VVn7Y2A" type="joinLink" source="_2urHsJTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2uwAMZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_4IYsoJTmEeq8rK2VVn7Y2A" type="joinLink" source="_4IRX4JTmEeq8rK2VVn7Y2A" target="_0Qd_4JTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4IYsoZTmEeq8rK2VVn7Y2A" points="[-1, -1, -735, -98]$[602, 79, -132, -18]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_4IZ6wJTmEeq8rK2VVn7Y2A" type="joinLink" source="_4IRX4JTmEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4IZ6wZTmEeq8rK2VVn7Y2A" points="[-1, -1, -591, -194]$[487, 159, -103, -34]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_48MvMJTmEeq8rK2VVn7Y2A" type="joinLink" source="_48HPoJTmEeq8rK2VVn7Y2A" target="_0-yecJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_48MvMZTmEeq8rK2VVn7Y2A" points="[-1, -1, -1085, -61]$[1002, 55, -82, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_48NWQJTmEeq8rK2VVn7Y2A" type="joinLink" source="_48HPoJTmEeq8rK2VVn7Y2A" target="_0Qd_4JTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_48NWQZTmEeq8rK2VVn7Y2A" points="[-1, -1, -735, -98]$[602, 79, -132, -18]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ecax0JTzEeq8rK2VVn7Y2A" type="targetLink" source="_csrSgJTzEeq8rK2VVn7Y2A" target="_hDVcoJTmEeq8rK2VVn7Y2A">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ecax0ZTzEeq8rK2VVn7Y2A" points="[-85, -5, 772, 44]$[-754, -43, 103, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eccnAJTzEeq8rK2VVn7Y2A" type="targetDataSetLink" source="_csrSgJTzEeq8rK2VVn7Y2A" target="_csrSgJTzEeq8rK2VVn7Y2A">
+    <element xmi:type="map:DataSet" href="../../MPD_Hotel.map#_husGwJTmEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eccnAZTzEeq8rK2VVn7Y2A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ecd1IJTzEeq8rK2VVn7Y2A" type="targetSetLink" source="_csrSgJTzEeq8rK2VVn7Y2A" target="_csrSgJTzEeq8rK2VVn7Y2A">
+    <element xmi:type="map:SetDescriptor" href="../../MPD_Hotel.map#_ebI_cJTzEeq8rK2VVn7Y2A?fileId=_f0MwAJTmEeq8rK2VVn7Y2A$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ecd1IZTzEeq8rK2VVn7Y2A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>
